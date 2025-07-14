@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package messages;
+
+message Response
+{
+    int32 code = 1;
+    string payload = 2;
+}
